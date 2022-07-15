@@ -1,0 +1,11 @@
+.hello{
+    border: 10px solid red;
+    padding: 10px 8px 8px 8px;
+}
+
+.box{
+    border: 3px solid red;
+}
+.main{
+    display: flex;
+}
