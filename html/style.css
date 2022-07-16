@@ -1,11 +1,42 @@
-.hello{
-    border: 10px solid red;
-    padding: 10px 8px 8px 8px;
+.navbar{
+    border: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 25px;
+    font-size: 30px;
+    background-color: olive;
 }
 
-.box{
-    border: 3px solid red;
+#content{
+    border: 3px solid rgb(217, 160, 160);
+    margin-top: 3px;
+    height: 700px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 3px;
 }
-.main{
+
+.content{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 50px;
+}
+.all{
+    border: 3px solid red;
     display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    font-size: 30px;
+    background-color: skyblue;
+    align-items: center;
+    margin: 5px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid blue;
+    align-items: flex-end;
+   
 }
